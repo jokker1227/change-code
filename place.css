@@ -1,0 +1,62 @@
+body {
+    margin: 7cm;  
+}
+.icon {
+    font-size: 24px;
+    margin: 25px;
+    animation: float 4s ease-in-out infinite;
+    text-indent: 60px;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.fa-github {
+    color: rgb(0, 0, 0);
+    animation-delay: 1s;
+}
+.fa-reddit {
+    animation-delay: 2s;
+    color: rgb(255, 123, 51);
+}
+.fa-telegram {
+    animation-delay: 3s;
+    color: rgba(30, 15, 220, 0.8);    
+}
+.fa-linkedin {
+    color: rgb(0, 0, 220);    
+}
+.fa-twitter {
+    color: rgba(0, 0, 220, 0.8);
+}
+.change {
+    margin: 29px;
+}
+input {
+    border: solid 1px;
+    border-radius: 9px;
+    padding: 10px 60px 10px 30px;
+    margin: 3vh;
+}
+@keyframes formInput {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(-20);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
